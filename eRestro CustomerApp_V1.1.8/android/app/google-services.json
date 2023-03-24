@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006238359917",
+    "project_id": "erestro-edc3e",
+    "storage_bucket": "erestro-edc3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006238359917:android:1c2ba2c094df64a4d33a64",
+        "android_client_info": {
+          "package_name": "com.wrteam.erestro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006238359917-4jp58ma3ok6hujg3rl43sc59f3aur467.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyHiVgry_bP7XDad5bsUnhzmiJKEMihX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006238359917-4jp58ma3ok6hujg3rl43sc59f3aur467.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

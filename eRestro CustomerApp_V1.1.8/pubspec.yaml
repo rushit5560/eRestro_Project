@@ -1,0 +1,151 @@
+name: erestro
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+#version: 1.1.1+2
+#version: 1.1.3+4
+#version: 1.1.4+5
+#version: 1.1.6+7
+#version: 1.1.10+11
+#version: 1.1.13+14
+version: 1.1.14+15
+
+
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.1.0+1
+  http: ^0.13.3
+  #octo_image: ^1.0.0+1
+  flutter_svg: ^2.0.2
+  shared_preferences: ^2.0.9
+  #lottie: ^1.2.1
+  google_maps_flutter: ^2.1.1
+  intl: ^0.17.0
+  url_launcher: ^6.0.16
+  image: ^4.0.15
+
+  #firebaselogin
+  #firebase_auth: ^3.3.13 #^3.2.0
+  #firebase_core: ^1.14.0 #^1.10.0
+  firebase_auth: ^4.1.3
+  firebase_core: ^2.3.0
+  firebase_messaging: ^14.1.1
+  google_sign_in: ^6.0.2
+  # flutter_login_facebook: ^1.6.0
+  apple_sign_in_safety: ^0.0.6
+  #cloud_firestore: ^3.1.10
+  flutter_html: ^3.0.0-alpha.3
+  flutter_local_notifications: ^13.0.0
+  flutter_localizations:
+    sdk: flutter
+
+  #google places
+  rxdart: ^0.27.4 #^0.27.3
+  google_maps_webservice: ^0.0.20-nullsafety.0 #^0.0.19
+  google_api_headers: ^1.1.1
+  #curr location
+  geolocator: ^9.0.2 #geolocator: ^7.6.0
+  geocoding: ^2.0.1
+  location:
+
+  flutter_bloc: ^8.0.1
+  hive_flutter: ^1.0.0
+  hive: ^2.0.4
+  image_picker: ^0.8.0+1
+  internet_connection_checker: ^1.0.0+1
+  intl_phone_field: ^3.1.0
+  #jaguar_jwt: ^3.0.0
+  launch_review: ^3.0.1
+  otp_autofill: ^2.1.0 #^1.1.0
+  sms_autofill: ^2.2.0
+  path_provider: ^2.0.2
+  pin_code_fields: ^7.3.0
+  webview_flutter: ^4.0.6 #^4.0.1
+  #google_mobile_ads: ^0.13.4
+  connectivity_plus: ^3.0.2
+  google_fonts: ^4.0.3
+  pin_input_text_field: ^4.1.1
+  permission_handler: ^10.2.0
+  provider: ^6.0.2
+  #vertical_scrollable_tabview: ^0.0.7 #^0.0.6
+  carousel_slider: ^4.0.0
+  share_plus: ^6.3.0
+  flutter_exif_rotation: ^0.5.1
+  mime_type: ^1.0.0
+  shimmer: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  #flutter_stripe: ^2.3.0
+  flutter_stripe: ^9.0.0+1
+  paytm: ^3.0.1
+  razorpay_flutter: ^1.2.7
+  #flutter_paystack: ^1.0.5+1
+  flutter_paystack:
+    git:
+      url: https://github.com/definitelyme/flutter_paystack.git
+      ref: a4a33c3dd0a12f46d655a2e63d11e9f20ba82d01
+  flutter_html_to_pdf: ^0.7.0
+  #open_file: ^3.2.1
+  open_filex: ^4.3.1
+  #new_version: ^0.3.0
+  flutter_downloader: ^1.7.1
+  file_picker: ^5.2.2 #^4.3.2
+  #flutter_google_places: ^0.3.0
+  google_places_flutter: ^2.0.5
+  package_info_plus: ^3.0.2
+  speech_to_text: ^6.1.1
+  lottie: ^2.1.0
+  #flutter_native_timezone: ^2.0.0
+  google_maps_place_picker_mb:
+  path_drawing: ^1.0.1
+  webview_flutter_android: ^3.3.1
+  webview_flutter_wkwebview: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.1
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/image/
+    - assets/images/image/0.75x/
+    - assets/images/image/1.0x/
+    - assets/images/image/1.5x/
+    - assets/images/image/2.0x/
+    - assets/images/image/3.0x/
+    - assets/images/image/4.0x/
+    - assets/images/svg/
+    - assets/eRestro.db
+    - assets/images/json/
+    - assets/languages/
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/font/Quicksand-Regular.ttf
+        - asset: assets/font/Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets/font/Quicksand-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/font/Quicksand-Medium.ttf
+          weight: 500
